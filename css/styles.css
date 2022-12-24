@@ -278,6 +278,7 @@ section {
   color: #344756;
   width: 100%;
   min-width: 266px;
+  word-break: break-word;
 }
 
 #team .profiles {
