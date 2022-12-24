@@ -1,66 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>WebSentiel Agency</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebSentiel</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/icon" href="images/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap");
-      body {
-        font-family: "Poppins", sans-serif;
-      }
-      .hero {
-        width: 100vw;
-        height: 100vh;
-        background-image: url("background-hero.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .content {
-        display: flex;
-        gap: 16px;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-      }
-
-      .hero img {
-        width: 300px;
-        filter: drop-shadow(0px 0px 30px rgb(255 255 255));
-      }
-
-      p {
-        font-weight: bold;
-        font-size: 24px;
-        color: #f57878;
-        margin: 0;
-        filter: drop-shadow(0px 0px 10px rgb(255 255 255));
-      }
-    </style>
   </head>
-  <body>
-    <div class="hero">
-      <div class="content">
-        <img src="logo.svg" alt="WebSentiel Logo" />
-        <p>We are landing soon....</p>
+
+  <body onload="start()" onscroll="scrollPos()">
+    <header>
+      <div class="container p-0">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="dropdown">
+            <button
+              class="btn"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img src="images/navcollapseicon.svg" alt="" />
+            </button>
+            <ul class="dropdown-menu" id="navItemsLang">
+              <li>
+                <a class="dropdown-item" href="#offer">Šta vam nudimo?</a>
+              </li>
+              <li><a class="dropdown-item" href="#team">Ko smo mi?</a></li>
+              <li>
+                <a class="dropdown-item" href="#portfolio">Naš portfolio</a>
+              </li>
+              <li><a class="dropdown-item" href="#contact">Kontakt</a></li>
+            </ul>
+          </div>
+
+          <a href="#">
+            <img src="images/Logo.svg" alt="Logo.svg" class="logo" />
+          </a>
+
+          <div class="dropdown">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img class="lang-ico" src="images/SRB.svg" alt="" />
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li onclick="applyLanguage(0)">
+                <a class="dropdown-item"
+                  ><img src="images/SRB.svg" alt="" /> Srpski</a
+                >
+              </li>
+              <li onclick="applyLanguage(1)">
+                <a class="dropdown-item"
+                  ><img src="images/ENG.svg" alt="" /> English</a
+                >
+              </li>
+              <li onclick="applyLanguage(2)">
+                <a class="dropdown-item"
+                  ><img src="images/GER.svg" alt="" /> Deutsch</a
+                >
+              </li>
+              <li onclick="applyLanguage(3)">
+                <a class="dropdown-item"
+                  ><img src="images/FRA.svg" alt="" /> Français</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
+    </header>
+
+    <main>
+      <div class="navigation">
+        <li class="selected"></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </div>
+      <section id="hero">
+        <div
+          class="hero-txt d-flex justify-content-center align-items-center"
+          id="heroLang"
+        >
+          <h1>
+            Dizajn i development agencija<br />za <span> digitalno doba</span>
+          </h1>
+          <h1 class="h1-overlay">
+            Dizajn i development agencija<br />za <span> digitalno doba</span>
+          </h1>
+        </div>
+      </section>
+      <section id="offer">
+        <div class="container">
+          <div
+            class="offer-main d-block d-lg-flex justify-content-center align-items-center gap-md-5 col-lg-9 mx-auto"
+          >
+            <div class="offer-img col-11 col-lg-6 mx-auto me-lg-0">
+              <div class="upper-pics">
+                <img class="laptop big-pic" src="images/laptop.svg" alt="" />
+                <img class="key small-pic" src="images/key.svg" alt="" />
+              </div>
+              <div class="lower-pics">
+                <img class="ppl small-pic" src="images/ppl.svg" alt="" />
+                <img class="drawing big-pic" src="images/drawing.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="offer-txt col-12 col-lg-6 mt-5 mt-lg-0">
+              <div class="mx-auto mx-lg-0" style="width: fit-content">
+                <h1 id="offerTitleLang">Šta vam nudimo?</h1>
+                <div class="offer-mini-txt" id="offerDetailsLang">
+                  <p>
+                    <img class="icon" src="images/brush.svg" alt="" />
+                    <span> Dizajn, izrada i unapredjivanje vebsajta</span>
+                  </p>
+                  <p>
+                    <img class="icon" src="images/seo.svg" alt="" />
+                    <span> SEO Optimizacija</span>
+                  </p>
+                  <p>
+                    <img class="icon" src="images/lock.svg" alt="" />
+                    <span> Enkripcija podata i bezbednost</span>
+                  </p>
+                  <p>
+                    <img class="icon" src="images/hp.svg" alt="" />
+                    <span> Celodnevna podrška</span>
+                  </p>
+                </div>
+                <a href="#contact" class="button" id="offerButtonLang">
+                  Kontakt
+                  <img src="images/arrow-white.svg" alt="" />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="team">
+        <div class="container">
+          <div class="col-12 mx-auto">
+            <h1 id="teamTitleLang">Ko smo mi?</h1>
+
+            <div class="row justify-content-between profiles col-12 m-0">
+              <div class="single-profile">
+                <img src="images/milan.png" alt="" />
+                <h2>Milan</h2>
+                <p class="work">- Fullstack web developer -</p>
+                <p id="milanDescLang">
+                  Lorem ipsum dolor sit amet consectetur. Consequat sociis amet
+                  sit diam tortor placerat. Purus fringilla in sit in in.
+                  Facilisis purus habitant orci rhoncus mauris sit viverra.
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
+              <div class="single-profile">
+                <img src="images/nikola.png" alt="" />
+                <h2>Nikola</h2>
+                <p class="work">- Graphic designer -</p>
+                <p id="nikolaDescLang">
+                  Lorem ipsum dolor sit amet consectetur. Consequat sociis amet
+                  sit diam tortor placerat. Purus fringilla in sit in in.
+                  Facilisis purus habitant orci rhoncus mauris sit viverra.
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
+              <div class="single-profile">
+                <img
+                  src="images/pavle.png"
+                  alt=""
+                  data-bs-toggle="tooltip"
+                  data-bs-placement="right"
+                  data-bs-title="Nikola je i ovde"
+                />
+                <h2>Pavle</h2>
+                <p class="work">- Frontend web developer -</p>
+                <p id="pavleDescLang">
+                  Lorem ipsum dolor sit amet consectetur. Consequat sociis amet
+                  sit diam tortor placerat. Purus fringilla in sit in in.
+                  Facilisis purus habitant orci rhoncus mauris sit viverra.
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
+              <div class="single-profile last">
+                <img src="images/mateja.png" alt="" />
+                <h2>Mateja</h2>
+                <p class="work">- Marketing & copywriting -</p>
+                <p id="matejaDescLang">
+                  Lorem ipsum dolor sit amet consectetur. Consequat sociis amet
+                  sit diam tortor placerat. Purus fringilla in sit in in.
+                  Facilisis purus habitant orci rhoncus mauris sit viverra.
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+              </div>
+            </div>
+            <div class="skill-imgs"></div>
+          </div>
+        </div>
+      </section>
+      <section id="portfolio">
+        <div class="container d-flex flex-column">
+          <h1 id="portfolioTitleLang">Naš portfolio</h1>
+          <div id="portfolios"></div>
+          <div id="outer">
+            <div class="port-pages" id="pages"></div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div class="container">
+          <div class="title">
+            <h1 id="contactTitleLang">Kontakrijate nas</h1>
+            <div class="social-img">
+              <a href=""><img src="images/contact-social-dribble.svg" /></a>
+              <a href=""><img src="images/contact-social-behance.svg" /></a>
+              <a href=""><img src="images/contact-social-facebook.svg" /></a>
+              <a href=""><img src="images/contact-social-linkedin.svg" /></a>
+              <a href="https://www.instagram.com/websentielagency/"
+                ><img src="images/contact-social-insta.svg"
+              /></a>
+              <a href=""><img src="images/contact-social-tt.svg" /></a>
+            </div>
+          </div>
+          <div class="body">
+            <div class="form-space">
+              <div class="cnt-contact">
+                <a href="mailto:contact@websentiel.me"
+                  ><img src="images/@.svg" /> contact@websentiel.me</a
+                >
+                <a href="tel:+381641111111"
+                  ><img src="images/phone.svg" /> +381 64 111 1111</a
+                >
+              </div>
+              <form method="POST">
+                <input type="name" placeholder="Vaše ime" />
+                <input type="email" placeholder="Vaš email" />
+                <textarea placeholder="Poruka WebSentiel timu"></textarea>
+                <input
+                  class="contact-button"
+                  type="submit"
+                  value="Pošaljite"
+                  id="contactButtonLang"
+                />
+              </form>
+            </div>
+            <div class="profiles d-none d-md-block">
+              <div class="small-profile">
+                <img src="images/milan.png" alt="" />
+                <div>
+                  <p>milan@websentiel.me</p>
+                  <p>+381 64 111 1111</p>
+                </div>
+              </div>
+              <div class="small-profile">
+                <img src="images/nikola.png" alt="" />
+                <div>
+                  <p>nikola@websentiel.me</p>
+                  <p>+381 64 111 1111</p>
+                </div>
+              </div>
+              <div class="small-profile">
+                <img src="images/pavle.png" alt="" />
+                <div>
+                  <p>pavle@websentiel.me</p>
+                  <p>+381 64 111 1111</p>
+                </div>
+              </div>
+              <div class="small-profile">
+                <img src="images/mateja.png" alt="" />
+                <div>
+                  <p>mateja@websentiel.me</p>
+                  <p>+381 64 111 1111</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="backdrop-ico d-none d-md-block">
+        <img class="blocks" src="images/kockice.svg" alt="" />
+        <img class="dots" src="images/tackice.svg" alt="" />
+        <img class="hashtag" src="images/taraba.svg" alt="" />
+        <img class="social" src="images/social.svg" alt="" />
+      </div>
+    </main>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
+    <script src="js/navigation_buttons.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/portfolio_data.js"></script>
+
+    <script>
+      function start() {
+        printData();
+        applyLanguage(0);
+      }
+
+      function scrollPos() {
+        if (
+          window.scrollY != 0 &&
+          !document
+            .getElementsByTagName("header")[0]
+            .classList.contains("blured")
+        )
+          document.getElementsByTagName("header")[0].classList.add("blured");
+
+        if (window.scrollY == 0)
+          document.getElementsByTagName("header")[0].classList.remove("blured");
+      }
+    </script>
   </body>
 </html>
