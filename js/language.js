@@ -49,6 +49,9 @@ const languageData = [
       title: "Kontaktirajte nas",
     },
   },
+  // ENG
+  // GER
+  // FRA
 ];
 
 function applyLanguage(lang) {

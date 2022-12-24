@@ -1,67 +1,11 @@
 const DATA = [
-  {
-    link: "#",
-    name: "1",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "2",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "3",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "4",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "5",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "6",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "7",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "8",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
-  {
-    link: "#",
-    name: "9",
-    description:
-      "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-    img: "images/connect.svg",
-  },
+  // {
+  //   link: "#",
+  //   name: "1",
+  //   description:
+  //     "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
+  //   img: "images/connect.svg",
+  // },
 ];
 
 let currentPage = 1;
