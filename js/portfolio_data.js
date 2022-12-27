@@ -1,11 +1,18 @@
 const DATA = [
-  // {
-  //   link: "#",
-  //   name: "1",
-  //   description:
-  //     "Lorem ipsum dolor sit amet consectetur. Mi elementum eget massa urna pharetra lobortis feugiat tempus urna.",
-  //   img: "images/connect.svg",
-  // },
+  {
+    link: "https://kholaps-music.com/",
+    name: "Kholaps music",
+    description:
+      "Kholaps is DJ & producer from Switzerland. Using our technical knowledge, we helped kholaps reach new clients and get new listeners.",
+    img: "images/portfolio/kholaps.png",
+  },
+  {
+    link: "https://www.tehnoterm.net/",
+    name: "TehnoTERM",
+    description:
+      "TehnoTERM is an engineering firm based in Jagodina. Website we built them is an example of our ability to adapt to all our client fields.",
+    img: "images/portfolio/tehnoterm.png",
+  },
 ];
 
 let currentPage = 1;
@@ -23,12 +30,12 @@ const pagesDiv = document.getElementById("pages");
 
 function getWork(element) {
   return `
-    <article class='port-images'> 
+    <article class='port-images' style='background-image: url(${element.img}) !important;'> 
         <div class="inner-text">
             <div class="inner-head">
             <h3>${element.name}</h3>
             <a href="${element.link}" class="connect-img"
-                ><img src="${element.img}" alt=""
+                ><img src="images/connect.svg" alt=""
             /></a>
             </div>
             <div class="inner-body">
