@@ -7,7 +7,7 @@ const languageData = [
       { href: "#portfolio", text: "Naš portfolio" },
       { href: "#contact", text: "Kontakt" },
     ],
-    hero: "Dizajn i development agencija<br />za <span> digitalno doba</span>",
+    hero: "Dizajn i development tim<br />za <span> digitalno doba</span>",
     button: { contact: "Kontakt", send: "Pošaljite" },
     offer: {
       title: "Šta vam nudimo?",
@@ -22,7 +22,7 @@ const languageData = [
         },
         {
           img: "images/lock.svg",
-          text: "Enkripcija podata i bezbednost",
+          text: "Enkripcija podataka i bezbednost",
         },
         {
           img: "images/hp.svg",
@@ -34,7 +34,7 @@ const languageData = [
       title: "Ko smo mi?",
       memberDesc: {
         milan:
-          "Milan studira Računarske nauke na matematičkom fakultetu u Novom Sadu. On je full stack web developer koji je oduvek voleo programiranje. Kao mladić je krenuo da uči programiranje i thnologije za razvoj veb aplikacija. Iako je mlad, on je učestvovao na više takmičenja koja je pobedio i radio sa kompanijom Vega IT na projektu.",
+          "Milan studira Računarske nauke na matematičkom fakultetu u Novom Sadu. On je full stack web developer koji je oduvek voleo programiranje. Kao mladić je krenuo da uči programiranje i thnologije za razvoj web aplikacija. Iako je mlad, on je učestvovao na više takmičenja koja je pobedio i radio sa velikim kompanijama na raznim pojektima",
         nikola:
           "Nikola je grafički dizajner sa fokusom na UI/UX. On je završio elektrotehničku školu i od tada je počeo da se bavi dizajnom veb stranica. Stalno se usavršava u korišćenju front-end tehnologija poput HTML-a, CSS-a i JavaScript-a. Ima talent za razumevanje potreba korisnika i stvaranje dizajna koji je jednostavan za korišćenje i zanosan za gledanje.",
         pavle:
@@ -85,7 +85,7 @@ const languageData = [
       title: "Who we are?",
       memberDesc: {
         milan:
-          "Milan is studying Computer Science at the Faculty of Mathematics in Novi Sad. He is a full stack web developer who has always loved programming. As a young man, he started learning programming and web application development technologies. Although he is young, he participated in several competitions which he won and worked with the Vega IT company on the project.",
+          "Milan is studying Computer Science at the Faculty of Mathematics in Novi Sad. He is a full stack web developer who has always loved programming. As a young man, he started learning programming and web application development technologies. Although he is young, he participated in several competitions which he won and worked with some of the biggest companies on many projects",
         nikola:
           "Nikola is a graphic designer with a focus on UI/UX. He graduated from an electrical engineering school and has since started designing websites. He is constantly improving in the use of front-end technologies such as HTML, CSS and JavaScript. He has a talent for understanding user needs and creating designs that are easy to use and pleasing to look at.",
         pavle:
