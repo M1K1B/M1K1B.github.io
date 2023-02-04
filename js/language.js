@@ -1,5 +1,5 @@
 const languageData = [
-    // SRB
+  // SRB
   {
     nav: [
       { href: "#offer", text: "Šta vam nudimo?" },
@@ -7,6 +7,7 @@ const languageData = [
       { href: "#portfolio", text: "Naš portfolio" },
       { href: "#contact", text: "Kontakt" },
     ],
+    langIcon: "images/SRB.svg",
     hero: "Dizajn i development tim<br />za <span> digitalno doba</span>",
     button: { contact: "Kontakt", send: "Pošaljite" },
     offer: {
@@ -39,8 +40,8 @@ const languageData = [
           "Nikola je grafički dizajner sa fokusom na UI/UX. On je završio elektrotehničku školu i od tada je počeo da se bavi dizajnom veb stranica. Stalno se usavršava u korišćenju front-end tehnologija poput HTML-a, CSS-a i JavaScript-a. Ima talent za razumevanje potreba korisnika i stvaranje dizajna koji je jednostavan za korišćenje i zanosan za gledanje.",
         pavle:
           "Pavle je student medicine koji ima ljubav prema IT-u. On je front-end developer koji se bavi izradom i održavanjem web stranica. On je stručnjak u korišćenju HTML-a, CSS-a i JavaScript-a za stvaranje atraktivnih i funkcionalnih web stranica.On voli raditi sa svojim klijentima da bi im pomogao da ostvare svoje ciljeve i steknu uspeh na internetu.",
-        mateja:
-          "Mateja je ekstrovertan i druželjubiv student hotelijerstva koji se bavi marketingom i pisanjem sadržaja. Mateja ima talent za pisanje i uživa u razvijanju različitih vrsta sadržaja, od kratkih oglasa do dugih članaka. On je posvećen radu sa svojim klijentima i uvek se trudi da im pruži najbolju moguću uslugu.",
+        andjela:
+          "Anđela studira digitalni marketing na Fakultetu za medije i komunikacije. Pored marketinga, od malena je samostalno učila i usavršavala se za grafičkog dizajnera. Neograničena kreativnost joj je najveća vrlina i trudi se da ispuni sve želje svojih klijenata. Pored fakulteta, Anđela se usavršavala na kursevima za digitalni marketing i time stekla sertifikate za Google Ads platformu kako bi bolje razumela želje svojih klijenata.",
       },
     },
     portfolio: {
@@ -58,6 +59,7 @@ const languageData = [
       { href: "#portfolio", text: "Our portfolio" },
       { href: "#contact", text: "Contact" },
     ],
+    langIcon: "images/ENG.svg",
     hero: "Design and development agency<br />for the<span> digital age</span>",
     button: { contact: "Contact", send: "Send" },
     offer: {
@@ -90,8 +92,8 @@ const languageData = [
           "Nikola is a graphic designer with a focus on UI/UX. He graduated from an electrical engineering school and has since started designing websites. He is constantly improving in the use of front-end technologies such as HTML, CSS and JavaScript. He has a talent for understanding user needs and creating designs that are easy to use and pleasing to look at.",
         pavle:
           "Pavle is a medical student who has a love for IT. He is a front-end developer who creates and maintains websites. He is an expert in using HTML, CSS and JavaScript to create attractive and functional web pages. He loves working with his clients to help them achieve their goals and achieve success online.",
-        mateja:
-          "Mateja is an extroverted and sociable student of hotel management who deals with marketing and content writing. Mateja has a talent for writing and enjoys developing different types of content, from short ads to long articles. He is dedicated to working with his clients and always strives to provide them with the best possible service.",
+        andjela:
+          "Andjela studies digital marketing at the Faculty of Media and Communications. In addition to marketing, she studied and trained herself as a graphic designer from a young age. Unlimited creativity is her greatest virtue and she tries to fulfill all the wishes of her clients. In addition to college, Andjela trained in digital marketing courses and thereby obtained certificates for the Google Ads platform in order to better understand the wishes of her clients.",
       },
     },
     portfolio: {
@@ -101,7 +103,7 @@ const languageData = [
       title: "Contact us",
     },
   },
-  // Deutsch
+  // GER
   {
     nav: [
       { href: "#offer", text: "Was bieten wir Ihnen?" },
@@ -109,6 +111,7 @@ const languageData = [
       { href: "#portfolio", text: "Unser Portfolio" },
       { href: "#contact", text: "Kontakt" },
     ],
+    langIcon: "images/GER.svg",
     hero: "Agentur für Design und Entwicklung<br />Für <span> das digitale Zeitalter</span>",
     button: { contact: "Kontakt", send: "Schicken Sie es" },
     offer: {
@@ -141,8 +144,8 @@ const languageData = [
           "Nikola ist Grafikdesigner mit Schwerpunkt UI/UX. Er absolvierte eine Schule für Elektrotechnik und hat seitdem mit der Gestaltung von Websites begonnen. Er verbessert ständig den Einsatz von Frontend-Technologien wie HTML, CSS und JavaScript. Er hat ein Händchen dafür, die Bedürfnisse der Benutzer zu verstehen und Designs zu erstellen, die einfach zu bedienen und ansprechend anzusehen sind.",
         pavle:
           "Pavle ist ein Medizinstudent mit einer Vorliebe für IT. Er ist ein Frontend-Entwickler, der Websites erstellt und pflegt. Er ist Experte für die Verwendung von HTML, CSS und JavaScript zur Erstellung attraktiver und funktionaler Webseiten und liebt es, mit seinen Kunden zusammenzuarbeiten, um ihnen dabei zu helfen, ihre Ziele zu erreichen und online erfolgreich zu sein..",
-        mateja:
-          "Mateja ist eine extrovertierte und gesellige Studentin des Hotelmanagements, die sich mit Marketing und Content Writing beschäftigt. Mateja hat ein Talent zum Schreiben und entwickelt gerne verschiedene Arten von Inhalten, von kurzen Anzeigen bis hin zu langen Artikeln. Er widmet sich der Arbeit mit seinen Kunden und ist stets bestrebt, ihnen den bestmöglichen Service zu bieten.",
+        andjela:
+          "Andjela studiert digitales Marketing an der Fakultät für Medien und Kommunikation. Neben dem Marketing studierte und bildete sie sich schon in jungen Jahren als Grafikdesignerin weiter. Grenzenlose Kreativität ist ihre größte Tugend und sie versucht, alle Wünsche ihrer Kunden zu erfüllen. Neben der Fakultät bildete sich Andjela in digitalen Marketingkursen weiter und erwarb dabei Zertifikate für die Google Ads-Plattform, um die Wünsche ihrer Kunden besser zu verstehen.",
       },
     },
     portfolio: {
@@ -160,6 +163,7 @@ const languageData = [
       { href: "#portfolio", text: "Notre portfolio" },
       { href: "#contact", text: "Contacter" },
     ],
+    langIcon: "images/FRA.svg",
     hero: "Agence de conception et développement<br />Pour <span> l'ère numérique</span>",
     button: { contact: "Contacter", send: "Envoie le" },
     offer: {
@@ -192,8 +196,8 @@ const languageData = [
           "Nikola est un graphiste spécialisé dans l'UI/UX. Il est diplômé d'une école de génie électrique et a depuis commencé à concevoir des sites Web. Il s'améliore constamment dans l'utilisation des technologies frontales telles que HTML, CSS et JavaScript. Il a le don de comprendre les besoins des utilisateurs et de créer des designs faciles à utiliser et agréables à regarder.",
         pavle:
           "Pavle est un étudiant en médecine passionné par l'informatique. Il est un développeur front-end qui crée et maintient des sites Web. Il est un expert dans l'utilisation de HTML, CSS et JavaScript pour créer des pages Web attrayantes et fonctionnelles. Il aime travailler avec ses clients pour les aider à atteindre leurs objectifs et à réussir en ligne.",
-        mateja:
-          "Mateja est une étudiante extravertie et sociable en gestion hôtelière qui s'occupe du marketing et de la rédaction de contenu. Mateja a un talent pour l'écriture et aime développer différents types de contenu, des petites annonces aux longs articles. Il est dévoué à travailler avec ses clients et s'efforce toujours de leur fournir le meilleur service possible.",
+        andjela:
+          "Andjela étudie le marketing numérique à la Faculté des médias et des communications. En plus du marketing, elle a étudié et s'est formée en tant que graphiste dès son plus jeune âge. La créativité illimitée est sa plus grande vertu et elle essaie de répondre à tous les souhaits de ses clients. En plus du corps professoral, Andjela s'est formée aux cours de marketing numérique et a ainsi obtenu des certificats pour la plateforme Google Ads afin de mieux comprendre les souhaits de ses clients.",
       },
     },
     portfolio: {
@@ -214,6 +218,7 @@ function applyLanguage(lang) {
               </li>`;
   });
 
+  document.getElementById("langIcon").src = languageData[lang].langIcon;
   document.getElementById("heroLang").innerHTML = "";
   document.getElementById("heroLang").innerHTML += `<h1>
             ${languageData[lang].hero}
@@ -244,8 +249,8 @@ function applyLanguage(lang) {
     languageData[lang].team.memberDesc.nikola;
   document.getElementById("pavleDescLang").innerHTML =
     languageData[lang].team.memberDesc.pavle;
-  document.getElementById("matejaDescLang").innerHTML =
-    languageData[lang].team.memberDesc.mateja;
+  document.getElementById("andjelaDescLang").innerHTML =
+    languageData[lang].team.memberDesc.andjela;
 
   document.getElementById("portfolioTitleLang").innerHTML =
     languageData[lang].portfolio.title;

@@ -27,7 +27,7 @@
   </head>
 
   <body onload="start()" onscroll="scrollPos()">
-    <header>
+    <header id="header">
       <div class="container p-0">
         <div class="d-flex justify-content-between align-items-center">
           <div class="dropdown">
@@ -62,7 +62,7 @@
               data-bs-toggle="dropdown"
               aria-expanded="false"
             >
-              <img class="lang-ico" src="images/SRB.svg" alt="Serbian flag" />
+              <img class="lang-ico" src="images/SRB.svg" id="langIcon" alt="Serbian flag" />
             </button>
             <ul class="dropdown-menu dropdown-menu-end">
               <li onclick="applyLanguage(0)">
@@ -201,10 +201,10 @@
                 </p>
               </div>
               <div class="single-profile last">
-                <img src="images/mateja.png" alt="Mateja Marovic" />
-                <h2>Mateja</h2>
+                <img src="images/andjela.jpeg" alt="Andjela" />
+                <h2>Andjela</h2>
                 <p class="work">- Marketing & copywriting -</p>
-                <p id="matejaDescLang">
+                <p id="andjelaDescLang">
                   Lorem ipsum dolor sit amet consectetur. Consequat sociis amet
                   sit diam tortor placerat. Purus fringilla in sit in in.
                   Facilisis purus habitant orci rhoncus mauris sit viverra.
@@ -285,9 +285,9 @@
                 </div>
               </div>
               <div class="small-profile">
-                <img src="images/mateja.png" alt="Mateja" />
+                <img src="images/andjela.jpeg" alt="Andjela" />
                 <div>
-                  <p>mateja@websentiel.me</p>
+                  <p>andjela@websentiel.me</p>
                   <p>+381 64 111 1111</p>
                 </div>
               </div>
@@ -330,6 +330,9 @@
         if (window.scrollY == 0)
           document.getElementsByTagName("header")[0].classList.remove("blured");
       }
+
+      let navHeight = document.getElementById("header").offsetHeight
+      document.documentElement.style.setProperty('--scroll-padding', navHeight+30 + "px")
     </script>
   </body>
 </html>
