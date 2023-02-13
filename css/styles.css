@@ -531,7 +531,7 @@ textarea {
   margin: 0;
 }
 
-@media (min-width: 425px) {
+@media (min-width: 428px) {
   #portfolios {
     grid-template-columns: 1fr 1fr;
   }

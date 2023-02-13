@@ -35,11 +35,11 @@ const languageData = [
       title: "Ko smo mi?",
       memberDesc: {
         milan:
-          "Milan studira Računarske nauke na matematičkom fakultetu u Novom Sadu. On je full stack web developer koji je oduvek voleo programiranje. Kao mladić je krenuo da uči programiranje i thnologije za razvoj web aplikacija. Iako je mlad, on je učestvovao na više takmičenja koja je pobedio i radio sa velikim kompanijama na raznim pojektima",
+          "Milan studira Računarske nauke na matematičkom fakultetu u Novom Sadu. On je full stack web developer koji je oduvek voleo programiranje. Kao mladić je krenuo da uči programiranje i tehnologije za razvoj web aplikacija. Iako je mlad, on je učestvovao na više takmičenja koja je pobedio i radio sa velikim kompanijama na raznim pojektima.",
         nikola:
           "Nikola je grafički dizajner sa fokusom na UI/UX. On je završio elektrotehničku školu i od tada je počeo da se bavi dizajnom veb stranica. Stalno se usavršava u korišćenju front-end tehnologija poput HTML-a, CSS-a i JavaScript-a. Ima talent za razumevanje potreba korisnika i stvaranje dizajna koji je jednostavan za korišćenje i zanosan za gledanje.",
         pavle:
-          "Pavle je student medicine koji ima ljubav prema IT-u. On je front-end developer koji se bavi izradom i održavanjem web stranica. On je stručnjak u korišćenju HTML-a, CSS-a i JavaScript-a za stvaranje atraktivnih i funkcionalnih web stranica.On voli raditi sa svojim klijentima da bi im pomogao da ostvare svoje ciljeve i steknu uspeh na internetu.",
+          "Pavle je student medicine koji ima ljubav prema IT-u. On je front-end developer koji se bavi izradom i održavanjem web stranica. On je stručnjak u korišćenju HTML-a, CSS-a i JavaScript-a za stvaranje atraktivnih i funkcionalnih web stranica. On voli raditi sa svojim klijentima da bi im pomogao da ostvare svoje ciljeve i steknu uspeh na internetu.",
         andjela:
           "Anđela studira digitalni marketing na Fakultetu za medije i komunikacije. Pored marketinga, od malena je samostalno učila i usavršavala se za grafičkog dizajnera. Neograničena kreativnost joj je najveća vrlina i trudi se da ispuni sve želje svojih klijenata. Pored fakulteta, Anđela se usavršavala na kursevima za digitalni marketing i time stekla sertifikate za Google Ads platformu kako bi bolje razumela želje svojih klijenata.",
       },
@@ -63,7 +63,7 @@ const languageData = [
     hero: "Design and development agency<br />for the<span> digital age</span>",
     button: { contact: "Contact", send: "Send" },
     offer: {
-      title: "What we offer?",
+      title: "What do we offer?",
       points: [
         {
           img: "images/brush.svg",
@@ -84,16 +84,16 @@ const languageData = [
       ],
     },
     team: {
-      title: "Who we are?",
+      title: "Who are we?",
       memberDesc: {
         milan:
-          "Milan is studying Computer Science at the Faculty of Mathematics in Novi Sad. He is a full stack web developer who has always loved programming. As a young man, he started learning programming and web application development technologies. Although he is young, he participated in several competitions which he won and worked with some of the biggest companies on many projects",
+          "Milan is studying Computer Science at the Faculty of Mathematics in Novi Sad. He is a full stack web-developer who has always loved programming. As a young man, he started learning programming and web application development technologies. Although he is young, he participated in several competitions that he won and worked with large companies on various projects.",
         nikola:
-          "Nikola is a graphic designer with a focus on UI/UX. He graduated from an electrical engineering school and has since started designing websites. He is constantly improving in the use of front-end technologies such as HTML, CSS and JavaScript. He has a talent for understanding user needs and creating designs that are easy to use and pleasing to look at.",
+          "Nikola is a graphic designer with a focus on UI/UX. He graduated from an electrical engineering school and has since started designing websites. He is constantly improving in the use of front-end technologies such as HTML, CSS and JavaScript. He has a knack for understanding user needs and creating designs that are easy to use and pleasing to look at.",
         pavle:
           "Pavle is a medical student who has a love for IT. He is a front-end developer who creates and maintains websites. He is an expert in using HTML, CSS and JavaScript to create attractive and functional web pages. He loves working with his clients to help them achieve their goals and achieve success online.",
         andjela:
-          "Andjela studies digital marketing at the Faculty of Media and Communications. In addition to marketing, she studied and trained herself as a graphic designer from a young age. Unlimited creativity is her greatest virtue and she tries to fulfill all the wishes of her clients. In addition to college, Andjela trained in digital marketing courses and thereby obtained certificates for the Google Ads platform in order to better understand the wishes of her clients.",
+          "Angela studies digital marketing at the Faculty of Media and Communications. In addition to marketing, she studied and trained herself as a graphic designer from a young age. Unlimited creativity is her greatest virtue and she tries to fulfill all the wishes of her clients. In addition to college, Angela trained in digital marketing courses and thus obtained certificates for the Google Ads platform in order to better understand the wishes of her clients.",
       },
     },
     portfolio: {
@@ -139,13 +139,13 @@ const languageData = [
       title: "Wer sind wir?",
       memberDesc: {
         milan:
-          "Milan studiert Informatik an der Fakultät für Mathematik in Novi Sad. Er ist ein Full-Stack-Webentwickler, der das Programmieren schon immer geliebt hat. Als junger Mann begann er mit dem Erlernen von Programmier- und Webanwendungsentwicklungstechnologien. Obwohl er jung ist, hat er an mehreren Wettbewerben teilgenommen, die er gewonnen hat, und mit der Firma Vega IT an dem Projekt gearbeitet.",
+          "Milan studiert Informatik an der Fakultät für Mathematik in Novi Sad. Er ist ein Full-Stack-Webentwickler, der das Programmieren schon immer geliebt hat. Als junger Mann begann er mit dem Erlernen von Programmier- und Webanwendungsentwicklungstechnologien. Obwohl er jung ist, hat er an mehreren Wettbewerben teilgenommen, die er gewonnen hat, und mit großen Unternehmen an verschiedenen Projekten gearbeitet.",
         nikola:
           "Nikola ist Grafikdesigner mit Schwerpunkt UI/UX. Er absolvierte eine Schule für Elektrotechnik und hat seitdem mit der Gestaltung von Websites begonnen. Er verbessert ständig den Einsatz von Frontend-Technologien wie HTML, CSS und JavaScript. Er hat ein Händchen dafür, die Bedürfnisse der Benutzer zu verstehen und Designs zu erstellen, die einfach zu bedienen und ansprechend anzusehen sind.",
         pavle:
-          "Pavle ist ein Medizinstudent mit einer Vorliebe für IT. Er ist ein Frontend-Entwickler, der Websites erstellt und pflegt. Er ist Experte für die Verwendung von HTML, CSS und JavaScript zur Erstellung attraktiver und funktionaler Webseiten und liebt es, mit seinen Kunden zusammenzuarbeiten, um ihnen dabei zu helfen, ihre Ziele zu erreichen und online erfolgreich zu sein..",
+          "Pavle ist ein Medizinstudent mit einer Vorliebe für IT. Er ist ein Frontend-Entwickler, der Websites erstellt und pflegt. Er ist Experte für die Verwendung von HTML, CSS und JavaScript zur Erstellung attraktiver und funktionaler Webseiten. Er liebt es, mit seinen Kunden zusammenzuarbeiten, um ihnen zu helfen, ihre Ziele zu erreichen und online erfolgreich zu sein.",
         andjela:
-          "Andjela studiert digitales Marketing an der Fakultät für Medien und Kommunikation. Neben dem Marketing studierte und bildete sie sich schon in jungen Jahren als Grafikdesignerin weiter. Grenzenlose Kreativität ist ihre größte Tugend und sie versucht, alle Wünsche ihrer Kunden zu erfüllen. Neben der Fakultät bildete sich Andjela in digitalen Marketingkursen weiter und erwarb dabei Zertifikate für die Google Ads-Plattform, um die Wünsche ihrer Kunden besser zu verstehen.",
+          "Angela studiert digitales Marketing an der Fakultät für Medien und Kommunikation. Neben dem Marketing studierte und bildete sie sich schon in jungen Jahren als Grafikdesignerin weiter. Grenzenlose Kreativität ist ihre größte Tugend und sie versucht, alle Wünsche ihrer Kunden zu erfüllen. Neben dem College hat sich Angela in digitalen Marketingkursen weitergebildet und so Zertifikate für die Google Ads-Plattform erworben, um die Wünsche ihrer Kunden besser zu verstehen.",
       },
     },
     portfolio: {
@@ -191,13 +191,13 @@ const languageData = [
       title: "Qui sommes nous?",
       memberDesc: {
         milan:
-          "Milan étudie l'informatique à la faculté de mathématiques de Novi Sad. C'est un développeur web full stack qui a toujours aimé la programmation. Jeune homme, il a commencé à apprendre la programmation et les technologies de développement d'applications Web. Bien qu'il soit jeune, il a participé à plusieurs concours qu'il a remportés et a travaillé avec la société Vega IT sur le projet.",
+          "Milan étudie l'informatique à la faculté de mathématiques de Novi Sad. C'est un développeur web full-stack qui a toujours aimé coder. Jeune homme, il a commencé à apprendre la programmation et les technologies de développement d'applications Web. Malgré son jeune âge, il a participé à plusieurs concours qu'il a remportés et a travaillé avec de grandes entreprises sur divers projets.",
         nikola:
-          "Nikola est un graphiste spécialisé dans l'UI/UX. Il est diplômé d'une école de génie électrique et a depuis commencé à concevoir des sites Web. Il s'améliore constamment dans l'utilisation des technologies frontales telles que HTML, CSS et JavaScript. Il a le don de comprendre les besoins des utilisateurs et de créer des designs faciles à utiliser et agréables à regarder.",
+          "Nikola est un graphiste spécialisé dans l'UI/UX. Il est diplômé d'une école de génie électrique et a depuis commencé à concevoir des sites Web. Il améliore constamment l'utilisation des technologies frontales telles que HTML, CSS et JavaScript. Il a le don de comprendre les besoins des utilisateurs et de créer des designs faciles à utiliser et agréables à regarder.",
         pavle:
-          "Pavle est un étudiant en médecine passionné par l'informatique. Il est un développeur front-end qui crée et maintient des sites Web. Il est un expert dans l'utilisation de HTML, CSS et JavaScript pour créer des pages Web attrayantes et fonctionnelles. Il aime travailler avec ses clients pour les aider à atteindre leurs objectifs et à réussir en ligne.",
+          "Pavle est un étudiant en médecine passionné par l'informatique. Il est un développeur frontend qui construit et maintient des sites Web. Il est un expert dans l'utilisation de HTML, CSS et JavaScript pour créer des sites Web attrayants et fonctionnels. Il aime travailler avec ses clients pour les aider à atteindre leurs objectifs et à réussir en ligne.",
         andjela:
-          "Andjela étudie le marketing numérique à la Faculté des médias et des communications. En plus du marketing, elle a étudié et s'est formée en tant que graphiste dès son plus jeune âge. La créativité illimitée est sa plus grande vertu et elle essaie de répondre à tous les souhaits de ses clients. En plus du corps professoral, Andjela s'est formée aux cours de marketing numérique et a ainsi obtenu des certificats pour la plateforme Google Ads afin de mieux comprendre les souhaits de ses clients.",
+          "Angela étudie le marketing numérique à la Faculté des médias et de la communication. En plus du marketing, elle a étudié et suivi une formation de graphiste dès son plus jeune âge. La créativité illimitée est sa plus grande vertu et elle essaie de répondre à tous les souhaits de ses clients. En dehors de l'université, Angela a poursuivi sa formation dans des cours de marketing numérique, obtenant des certifications sur la plate-forme Google Ads pour mieux comprendre ce que veulent ses clients.",
       },
     },
     portfolio: {
