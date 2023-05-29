@@ -13,6 +13,13 @@ const DATA = [
       "TehnoTERM is an engineering firm based in Jagodina. Website we built them is an example of our ability to adapt to all our client fields.",
     img: "images/portfolio/tehnoterm.png",
   },
+  {
+    link: "https://www.orlmarjanovic.com/",
+    name: "ORL Marjanovic",
+    description:
+      "Website to showcase dr. Milan Marjanovic and his ordination in the best light possible. Including gallery, services and more.",
+    img: "images/portfolio/orlmarjanovic.png",
+  },
 ];
 
 let currentPage = 1;
