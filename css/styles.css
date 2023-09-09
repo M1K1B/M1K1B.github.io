@@ -479,7 +479,7 @@ textarea {
   font-size: 1.2rem !important;
   border-radius: 10px;
   border: 2px solid #e3e3e3;
-  padding: 1rem;
+  padding: 12px;
   color: #344756;
   opacity: 75%;
   width: 100%;
@@ -495,7 +495,7 @@ textarea {
 #contact .body .form-space .contact-button {
   text-decoration: none;
   background-color: #344756;
-  padding: 1.1rem;
+  padding: 10px 16px;
   color: #fff;
   border-radius: 0.5rem;
   font-size: 1.3rem;
@@ -531,13 +531,17 @@ textarea {
   margin: 0;
 }
 
-@media (min-width: 428px) {
+@media (max-width: 768px) {
   #portfolios {
     grid-template-columns: 1fr 1fr;
   }
 
   #portfolio .port-pages {
     transform: scale(1);
+  }
+
+  header.blured {
+    backdrop-filter: blur(20px);
   }
 }
 
@@ -566,6 +570,10 @@ textarea {
     width: 200px;
   }
 
+  header.blured {
+    backdrop-filter: blur(20px);
+  }
+
   #portfolios {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -577,6 +585,6 @@ textarea {
   } */
 
   #contact .body .form-space .cnt-contact a {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
   }
 }
